@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -73,7 +74,7 @@ button {
     border-radius: 5px;
     color:white;
     border: none;
-    padding: 5px 15px;
+    padding: 5px px;
 }
 
 .information {
@@ -131,4 +132,39 @@ gap: 20px;
     font-weight: 600;
     font-size: 32px;
    text-align: right;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882f6;
+    margin: 100px 250px;
+    padding: 40px;
+    border-radius: 5px;
+    gap: 150px;
+    color: #f9faf8;
+}
+
+.top {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.bottom, .image-text{
+    font-size: 16px;
+}
+
+.right > button {
+    border: 1px solid #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 16px;
 }
